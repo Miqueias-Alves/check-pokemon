@@ -30,7 +30,16 @@
 This is an API that receives an image of a Pokemon and returns its name.
 For this, Google's artificial intelligence API called GEMINI is used.
 
-## Project setup
+# Prerequisites
+> Node 20.*
+
+## Automatic execution with docker
+
+```bash
+$ docker-compose up -d
+```
+
+## Execution manually
 
 ```bash
 $ npm install
